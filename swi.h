@@ -10,7 +10,7 @@
 			uint32_t pI = *(uint32_t *)args;
 			}
 			
-			uint32_t z = 3.1416;
+			uint32_t z = 3;
 			
 	@usage SWI_Req(1, testSWI, (void*)(&z));
 		This ensures testSWI will execute as a software interrupt!
